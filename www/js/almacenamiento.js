@@ -1342,6 +1342,6 @@ almacenamiento.obtenerOrdenAutomovil=function(pendiente){
 almacenamiento.imprimirFacturaPorFolio=function(){
     var folio=almacenamiento.dameFolioActivo();
     if(folio!=null)
-        console.log('http://kipkar.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+folio["id"]);
-        window.open('http://kipkar.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+folio["id"], '_blank','location=0','closebuttoncaption=Cerrar');
+        console.log('http://demo.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+folio["id"]);
+        window.open('http://demo.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+folio["id"], '_blank','location=0','closebuttoncaption=Cerrar');
 }//function

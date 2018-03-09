@@ -1432,8 +1432,8 @@ inicio.seleccionoAuto=function(idAuto,idOrde,fingreso,fentrega,noBahia,idOrdeRea
 
 function imprimirFactura(){
     if(inicio.seleAutoIdOrden!=0)
-        console.log('http://kipkar.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+inicio.seleAutoIdOrden);
-        window.open('http://kipkar.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+inicio.seleAutoIdOrden, '_blank','location=0','closebuttoncaption=Cerrar');
+        console.log('http://demo.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+inicio.seleAutoIdOrden);
+        window.open('http://demo.solucionesoftware.com.mx/sincronizacion/pdf-orden-servicio?folio='+inicio.seleAutoIdOrden, '_blank','location=0','closebuttoncaption=Cerrar');
 }//function
 
 inicio.seleOrde=0;
